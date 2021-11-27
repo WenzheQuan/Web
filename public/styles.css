@@ -1,0 +1,117 @@
+h1 {
+	font-family: 'Alegreya' ;
+}
+
+body {
+	font-family: 'Source Sans Pro' ;
+	width: 50%;
+	margin-left: 25%;
+	text-align: justify;
+	line-height: 1.7;
+	font-size: 18px;
+	background-image: url("webdesign.png")
+
+}
+
+input {
+	font-size: 18px;
+	text-align: center;
+}
+
+button {
+	font-size: 18px;
+	color: brown;
+}
+
+span {
+	color:transparent;
+}
+
+span:focus{
+	color:black;
+}
+
+button:focus ~ span{
+	color:black;
+}
+
+#chart div {
+  display: inline-block;
+  background: #4285F4;
+  width: 20px;
+  margin-right: 3px;
+}
+
+h1:hover {
+	background-color: yellow;
+	transform: scale(1.1);	
+}
+
+h2{
+	color:darkblue
+}
+
+input {
+  margin: 4px;
+}
+
+#BC {
+	border-radius: 25px;
+    border: 2px solid #8AC007;
+    padding: 20px;
+    width: 600px;
+    height: 150px;
+    background: linear-gradient(to bottom right, pink, yellow);
+}
+
+.svg-wrapper {
+  height: 60px;
+	margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 320px;
+}
+
+.shape {
+  fill: transparent;
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 8px;
+  stroke: #19f6e8;
+}
+
+.text {
+  color: black;
+  font-family: 'Roboto Condensed';
+  font-size: 22px;
+  letter-spacing: 8px;
+  line-height: 32px;
+  position: relative;
+  top: -48px;
+  text-align: center;
+}
+
+@keyframes draw {
+  0% {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 8px;
+  }
+  100% {
+    stroke-dasharray: 760;
+    stroke-dashoffset: 0;
+    stroke-width: 2px;
+  }
+}
+
+.svg-wrapper:hover .shape {
+  -webkit-animation: 0.5s draw linear forwards;
+  animation: 0.5s draw linear forwards;
+}
+
+a:link { color: blue; }          
+a:hover { background: yellow; }
+a:active { color: red; }
+
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<script src="./d3.js"></script>
+<script src="moment.js"></script>
+
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Alegreya|Source+Sans+Pro&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<meta charset="UTF-8">
+	
+</head>
+<html>
+<body>
+<h1>Wenzhe’s Project</h1>
+<h2>Classes</h2>
+<p></p>
+<div id="BC">
+<li>These are the courses I have in this term.</li>
+<li>The image below shows the number of each class I have in different months.</li>
+<li>Well ... I have to say the emoji is the funniest pary of this project. &#128540</li>
+<p style="font-size:30px">&#9889  &#127849 &#128518 &#127918</p>
+</div>
+<div id="nav"></div>
+<p >Here is d3 svg</p>
+<div id="chart"></div>
+<svg width="1000" height="200"></svg> 
+<svg width="400" height="400" id="testSvg">
+      <text x="250" y="15" fill="grey" >Here is non-d3 svg</text>
+   <circle cx="100" cy="100" r="50" id="testCircle" fill="white" stroke="black" stroke-width="3">
+   	<animate id="toRight" attributeName="cx" from="100" to="300" dur="2.5s" begin="0;toLeft.end" fill="freeze"></animate>
+     <animate id="toLeft" attributeName="cx" from="300" to="100" dur="2.5s" begin="toRight.end" fill="freeze"></animate>
+<!--From https://blog.csdn.net/weixin_40136732/article/details/88985116, but I change coordinate and reset duration time     -->
+   </circle>
+   <rect x="20" y="50" width="15" height="34" fill="blue" stroke="black" stroke-width="1" transform="rotation">
+   <animateTransform attributeType="XML" attributeName="transform" begin="0s" dur="5s" type="rotate" from="20 60 60" to="360 100 60" repeatCount="indefinite" />
+    </rect>
+    <path d="M100 300 L200 180 L300 300 L400 180 Z"stroke="#ccc"stroke-width="2"fill="none"/>
+<circle r="20" x="150" y="0" style="fill:#336622;">
+<animateMotion dur="3s"repeatCount="indefinite"rotate="auto"path="M100 300 L200 180 L300 300 L400 180 Z"/>
+</circle>
+</svg>
+<div class="ball"></div>
+<div class="svg-wrapper">
+  <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+    <rect class="shape" height="60" width="320" />
+  </svg>
+   <div class="text">EDG AWESOME !</div>
+</div>
+<p align="center"><img src="EDG.jpg"alt="Edward Gaming"width="300"height="120"title="EDG club" ></p>
+ <p>To know more
+  <a href="https://lol.fandom.com/wiki/EDward_Gaming">More about EDG.</a>
+</p>
+<footer>
+<div>
+<button id = "incase">Click me to explore!</button>
+<span> This is the hiden thing</span>
+</div>
+<div id="chart"></div>
+
+</footer>
+ <script type="text/javascript" src="script.js">
+</script>
+
+</body>
+</html>
