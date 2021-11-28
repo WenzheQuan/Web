@@ -5,6 +5,18 @@
                                          wquan5@uwo.ca
 4 -- Project Check-list (this list filled in)
 5 -- a git log --all
+      commit 30e32cf5a508f502f682a41dde09a06d5a8bb067 (HEAD -> master)
+      Author: WenzheQuan <wquan5@uwo.ca>
+      Date:   Sat Nov 27 18:27:18 2021 -0500
+
+      project
+
+      commit aab295c791f3fbfc731202715ce160911c89e4bb
+      Author: WenzheQuan <wquan5@uwo.ca>
+      Date:   Sat Nov 27 18:26:03 2021 -0500
+
+    project
+
 6 A server.js (nodejs) file that serves an index.html written with
 7 -- that runs by “node server.js”
 8 -- external link: https://localhost:3000 views your SPA (index.html…)
